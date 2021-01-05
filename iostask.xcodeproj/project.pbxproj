@@ -13,6 +13,8 @@
 		FA6B332725A0CA6B00188F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6B332525A0CA6B00188F1B /* Main.storyboard */; };
 		FA6B332925A0CA6B00188F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6B332825A0CA6B00188F1B /* Assets.xcassets */; };
 		FA6B332C25A0CA6B00188F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA6B332A25A0CA6B00188F1B /* LaunchScreen.storyboard */; };
+		FA7D43CF25A4DBF300F65372 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D43CE25A4DBF300F65372 /* PersonCell.swift */; };
+		FA7D43D925A4FE3C00F65372 /* BranchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D43D825A4FE3C00F65372 /* BranchCell.swift */; };
 		FAD602A325A2146000B41DC4 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD602A225A2146000B41DC4 /* EmailViewController.swift */; };
 		FAD602A725A248E800B41DC4 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD602A625A248E700B41DC4 /* PaddingTextField.swift */; };
 		FAD602AA25A2562300B41DC4 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD602A925A2562300B41DC4 /* PasswordViewController.swift */; };
@@ -28,6 +30,8 @@
 		FA6B332825A0CA6B00188F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA6B332B25A0CA6B00188F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA6B332D25A0CA6B00188F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7D43CE25A4DBF300F65372 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		FA7D43D825A4FE3C00F65372 /* BranchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchCell.swift; sourceTree = "<group>"; };
 		FAD602A225A2146000B41DC4 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		FAD602A625A248E700B41DC4 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
 		FAD602A925A2562300B41DC4 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 				FAD602A925A2562300B41DC4 /* PasswordViewController.swift */,
 				FAD602AD25A26BAA00B41DC4 /* activeViewController.swift */,
 				FAD602A625A248E700B41DC4 /* PaddingTextField.swift */,
+				FA7D43CE25A4DBF300F65372 /* PersonCell.swift */,
+				FA7D43D825A4FE3C00F65372 /* BranchCell.swift */,
 				FA6B332525A0CA6B00188F1B /* Main.storyboard */,
 				FA6B332825A0CA6B00188F1B /* Assets.xcassets */,
 				FA6B332A25A0CA6B00188F1B /* LaunchScreen.storyboard */,
@@ -149,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7D43D925A4FE3C00F65372 /* BranchCell.swift in Sources */,
 				FA6B332425A0CA6B00188F1B /* ViewController.swift in Sources */,
 				FA6B332025A0CA6B00188F1B /* AppDelegate.swift in Sources */,
+				FA7D43CF25A4DBF300F65372 /* PersonCell.swift in Sources */,
 				FA6B332225A0CA6B00188F1B /* SceneDelegate.swift in Sources */,
 				FAD602A325A2146000B41DC4 /* EmailViewController.swift in Sources */,
 				FAD602A725A248E800B41DC4 /* PaddingTextField.swift in Sources */,
