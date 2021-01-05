@@ -19,7 +19,7 @@ class activeViewController: UIViewController {
         internalView.layer.cornerRadius = 8
         internalView.layer.shadowColor =  UIColor(red:0/255, green:0/255, blue:0/255, alpha: 0.1).cgColor
         internalView.layer.shadowOpacity =  100
-        externalView.layer.cornerRadius = 24
+          externalView.layer.cornerRadius = 24
         intialprocessing.layer.cornerRadius = 15
         intialprocessing.layer.masksToBounds = true
     
